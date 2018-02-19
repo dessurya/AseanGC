@@ -1,0 +1,593 @@
+/* Default */
+	.wrapper h2.title{
+		font-size: 36px;
+	}
+	.back-icon{
+		position: absolute;
+		width: 100%;
+		z-index: -1;
+		top: -60px;
+	}
+	.back-icon img{
+		opacity: .3;
+		height: 165px;
+	}
+/* Default */
+
+/* Banner */
+	#banner{
+		position: relative;
+		width: 100%;
+		height: 660px;
+
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		/*background: white;*/
+	}
+	#banner #regis-box{
+		position: absolute;
+		width: 435px;
+		bottom: 85px;
+		left: 115px;
+	}
+	#banner #regis-box h2{
+		margin: 0;
+		padding: 0;
+		color: rgb(201,41,41);
+		font-size: 32px;
+	}
+	#banner #regis-box h3{
+		margin: 0;
+		padding: 0 0 30px;
+		color: black;
+		font-size: 26px;
+	}
+/* Banner */
+
+/* entrance */
+	#entrance{
+		position: relative;
+		padding: 60px 0 0px;
+	}
+	#entrance img#wave{
+		position: absolute;
+		top: 60px;
+		width: 100%;
+	}
+	#entrance img#greeting{
+		width: 335px;
+		margin-bottom: 20px;
+	}
+	#entrance #greeting{
+		width: 80%;
+		margin: 0 auto;
+		line-height: 1.4;
+		color: black;
+	}
+	#entrance h3#schedule{
+		position: relative;
+		color: rgb(110,115,235);
+		font-size: 36px;
+		margin-top: 150px;
+		margin-bottom: 100px;
+	}
+	#entrance .schedule{
+		position: relative;
+	}
+	#entrance .schedule .bar{
+		display: inline-block;
+		width: 27.33%;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+	#entrance .schedule .bar #content{
+		width: 80%;
+		margin: 0 auto 60px;
+	}
+	#entrance .schedule .bar img#icon{
+		width: 50px;
+	}
+	#entrance .schedule .bar h4{
+		margin: 10px 0 20px;
+		color: rgb(110,115,235);
+		font-size: 20px;
+	}
+	#entrance .schedule .bar p{
+		margin: 4px auto;
+	}
+	#entrance .schedule .bar #space{
+		margin-top: 30px;
+	}
+/* entrance */
+
+/* time */
+	#time{
+		position: relative;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		padding: 140px 0 130px;
+	}
+	#time h2#title{
+		color: rgb(220,29,37);
+		margin: 20px 0;
+	}
+	#time #greeting{
+		width: 80%;
+		margin: 0 auto;
+		color: black;
+		font-size: 18px;
+	}
+	#time #count{
+		width: 80%;
+		margin: 0 auto;
+	}
+	#time .shell{
+		display: inline-block;
+		width: 23.33%;
+		margin: 40px auto;
+	}
+	#time .times{
+		width: 160px;
+		height: 160px;
+		margin: 0px auto;
+		padding: 0;
+		border-radius: 100%;
+	}
+	#time .times #tab{
+		display: table;
+		width: 160px;
+	}
+	#time .times #tab #midle{
+		display: table-cell;
+		vertical-align: middle;
+		width: 160px;
+		height: 160px;
+	}
+	#time .times h3,
+	#time .times h4{
+		margin: 0;
+		color: white;
+	}
+	#time .times h3{
+		font-size: 58px;
+	}
+	#time .times h4{
+		font-size: 24px;
+	}
+	#time #days.times{
+		background-color: rgba(122,113,70,.8);
+		border:5px solid rgba(253,229,139,.8);
+	}
+	#time #hours.times{
+		background-color: rgba(115,92,76,.8);
+		border:5px solid rgba(226,183,149,.8);
+	}
+	#time #minutes.times{
+		background-color: rgba(76,81,111,.8);
+		border:5px solid rgba(150,158,223,.8);
+	}
+	#time #seconds.times{
+		background-color: rgba(57,80,60,.8);
+		border:5px solid rgba(48,89,49,.8);
+	}
+/* time */
+
+/* Faq */
+	#faq{
+		position: relative;
+	}
+	#faq .wave{
+		position: absolute;
+	}
+	#faq .wave.left{
+		left: 0;
+	}
+	#faq .wave.right{
+		right: 0;
+		top: 240px;
+	}
+
+	#faq h2.title{
+		position: relative;
+		margin: 20px 0;
+		padding-bottom: 60px;
+	}
+	#faq h2.title.faq{
+		color: rgb(92,165,83);
+	}
+
+	#faq h3.note.faq{
+		color: rgb(189,96,107);
+		margin: 0;
+	}
+
+	#faq .bar.faq{
+		position: relative;
+		display: inline-block;
+		width: 45.33%;
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding-left: 40px;
+		text-align: left;
+	}
+	#faq .bar.faq h3{
+		color: rgb(92,165,83);
+		font-size: 26px;
+		margin: 0;
+	}
+	#faq .bar.faq h3 img{
+		position: absolute;
+		width: 40px;
+		left: -10px;
+	}
+
+	#faq h2.title.msg{
+		margin: 120px 0 60px;
+		color: rgb(120,52,93);
+	}
+	#faq div.bar.msg:nth-child(odd){
+		text-align: left;
+	}
+	#faq div.bar.msg:nth-child(even){
+		text-align: right;
+	}
+	#faq div.bar.msg h3,
+	#faq div.bar.msg h4{
+		margin: 0;
+	}
+	#faq div.bar.msg h3{
+		color: rgb(120,52,93);
+		font-size: 26px;
+	}
+	#faq div.bar.msg h4{
+		color: rgb(118,158,121);
+		font-size: 22px;
+	}
+	#faq div.bar.msg #content{
+		line-height: 1.4;
+		font-size: 18px;
+	}
+	#faq div.bar.msg a{
+		color: rgb(120,52,93);
+		text-decoration: none;
+		font-size: 22px;
+	}
+/* Faq */
+
+/* Commite */
+	#commite{
+		position: relative;
+		height: 880px;
+	}
+	#commite h2.title{
+		padding: 120px 0 40px;
+		color: rgb(51,57,143);
+	}
+	#commite img.img{
+		position: absolute;
+		z-index: -1;
+		width: 100%;
+	}
+	#commite img#top{
+		bottom: 00px;
+	}
+	#commite img#bottom{
+		bottom: 0px;
+	}
+	/* flip */
+		#commite #list-commite li{
+			position: relative;
+			width: 33.33%;
+		}
+		#commite #list-commite li .item{
+			display: table;
+			width: 100%;
+		}
+		#commite #list-commite ul li .shell{
+			display: table-cell;
+			vertical-align: middle;
+			width: 100%;
+			height: 320px;
+		}
+		#commite #list-commite ul li .shell .center{
+			width: 220px;
+			height: 220px;
+			margin: 0 auto;
+		}
+		#commite #list-commite ul li .shell .center .circle{
+			position: relative;
+			overflow: hidden;
+			width: 220px;
+			height: 220px;
+			padding: 0;
+			border-radius: 100%;
+
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		#commite #list-commite ul li .shell .circle #bottom{
+			position: absolute;
+			bottom: 0px;
+			width: 100%;
+			background-color: rgba(255,255,255,.8);
+			visibility: hidden;
+			opacity: 0;
+		}
+		#commite #list-commite ul li .shell .circle #bottom #content{
+			position: relative;
+			display: block;
+		}
+		#commite #list-commite ul li .shell .circle h3,
+		#commite #list-commite ul li .shell .circle h4{
+			margin: 0;
+			color: black;
+		}
+		#commite #list-commite ul li .shell .circle h3{
+			font-size: 28px;
+			padding-top: 10px;
+		}
+		#commite #list-commite ul li .shell .circle h4{
+			font-size: 18px;
+			padding-bottom: 20px;
+		}
+	/* Flip */
+	/* flip center */
+		#commite #list-commite li .item .shell .center,
+		#commite #list-commite li .item .shell .center .circle,
+		#commite #list-commite li .item .shell .center .circle #bottom{
+			transition: all .51s;
+		}
+		#commite #list-commite li.flipster__item--current .item .shell .center,
+		#commite #list-commite li.flipster__item--current .item .shell .center .circle{
+			width: 290px;
+			height: 290px;
+		}
+		#commite #list-commite li .item .shell .center .circle:hover #bottom,
+		#commite #list-commite li.flipster__item--current .item .shell .center .circle #bottom{
+			visibility: visible;
+			opacity: 1;
+		}
+	/* flip center */
+	/* flip set up */
+		.flipster--carousel .flipster__item--past-1, 
+		.flipster--carousel .flipster__item--future-1{
+			opacity: 1;
+		}
+		.flipster--click .flipster__item--past, 
+		.flipster--click .flipster__item--future{
+			-webkit-filter: none;
+			filter: none;
+		}
+		.flipster--carousel .flipster__item--future-1 .flipster__item__content,
+		.flipster--carousel .flipster__item--past-1 .flipster__item__content{
+		    transform: rotateY(0deg) scale(1);
+		}
+
+		.flipster__button{
+			opacity: 1;
+			z-index: 10;
+		}
+	/* flip set up */
+/* Commite */
+
+/* Gallery */
+	#gallery{
+		position: relative;
+		background-color: rgb(57,152,117);
+	}
+	#gallery img.img{
+		position: absolute;
+		width: 100%;
+		bottom: -210px;
+		z-index: 1;
+	}
+	#gallery h2.title{
+		margin: 0;
+		padding: 10px 0 40px;
+		color: white;
+	}
+	#gallery .list{
+		position: relative;
+	}
+	#gallery .list .bar{
+		display: inline-block;
+		width: 27.33%;
+		margin: 0 auto;
+		padding: 10px;
+	}
+	#gallery .list .bar #content{
+		height: 200px;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	#gallery #more{
+		position: relative;
+		padding: 40px 0 0;
+		z-index: 1;
+	}
+	#gallery #more a{
+		background-color: rgb(202,37,43);
+	}
+/* Gallery */
+
+/* Partner */
+	#partner{
+		position: relative;
+		padding-top: 270px;
+		/*padding-bottom: 80px;*/
+	}
+	#partner h2.title{
+		color: rgb(96,164,89);
+		margin-bottom: 80px;
+	}
+	#partner img#logo{
+		width: 100%;
+	}
+/* Partner */
+
+@media screen and (max-width: 1024px) and (min-width: 528px){ /* tab */
+}
+
+@media screen and (max-width: 736px) and (min-width: 528px){ /* mobile landscape */
+	/* entrance */
+		#entrance h3#schedule{
+			margin-top: 75px;
+			margin-bottom: 75px;
+		}
+	/* entrance */
+
+	/* commite */
+		#commite{
+			height: 480px;
+		}
+	/* commite */
+
+}
+
+@media screen and (max-width: 736px) { /* Mobile landscape and portrait */
+	/* banner */
+		#banner{
+			height: 330px;
+		}
+		#banner #regis-box{
+			position: relative;
+			width: 100%;
+			top: 200px;
+			left: 0;
+		}
+		#banner #regis-box h2{
+			color: rgb(201,41,41);
+			font-size: 26px;
+		}
+		#banner #regis-box h3{
+			margin: 0;
+			padding: 0 0 30px;
+			font-size: 18px;
+		}
+	/* banner */
+
+	/* entrance */
+		#entrance img#greeting{
+			width: 80%;
+		}
+		#entrance .schedule .bar #content{
+			margin-bottom: 20px;
+		}
+	/* entrance */
+
+	/* time */
+		#time .shell{
+			margin: 10px auto;
+		}
+		#time .times,
+		#time .times #tab,
+		#time .times #tab #midle{
+			width: 100px;
+			height: 100px;
+		}
+		#time .times h3{
+			font-size: 36px;
+		}
+		#time .times h4{
+			font-size: 14px;
+		}
+	/* time */
+
+	/* faq */
+		#faq .wave.left,
+		#faq .wave.right{
+			height: 200px;
+		}
+		#faq h2.title{
+			padding-bottom: 40px;
+		}
+		#faq .bar.faq{
+			display: block;
+			width: 100%;
+			padding: 0;
+		}
+		#faq .bar.faq h3 img{
+			width: 0;
+		}
+		#faq div.bar.msg{
+			margin-bottom: 20px;
+		}
+	/* faq */
+
+	/* commite */
+		#commite h2.title{
+			padding: 20px 0;
+		}
+		#commite #list-commite li{
+			width: 100%;
+		}
+		#commite #list-commite ul li .shell{
+			height: 220px;
+		}
+		#commite #list-commite ul li .shell .center,
+		#commite #list-commite ul li .shell .center .circle{
+			width: 0px;
+			height: 0px;
+		}
+		#commite #list-commite li.flipster__item--current .item .shell .center,
+		#commite #list-commite li.flipster__item--current .item .shell .center .circle{
+			width: 220px;
+			height: 220px;
+		}
+	/* commite */
+
+}
+
+@media (max-width: 528px) { /* Mobile */
+
+	/* entrance */
+		#entrance h3#schedule{
+			margin-top: 100px;
+			margin-bottom: 25px;
+		}
+		#entrance .schedule .bar{
+			display: block;
+			width: 100%;
+			padding: 0;
+		}
+		#entrance .schedule .bar img#icon{
+			width: 0;
+		}
+	/* entrance */
+
+	/* time */
+		#time h2#title{
+			margin: 5px 0;
+		}
+	/* time */
+
+	/* commite */
+		#commite{
+			height: 435px;
+		}
+	/* commite */
+
+	/* gallery */
+		#gallery .list .bar{
+			width: 42%;
+		}
+		#gallery .list .bar #content{
+			height: 120px;
+		}
+		#gallery img.img{
+			bottom: -55px;
+		}
+	/* gallery */
+
+	/* partner */
+		#partner{
+			padding-top: 95px;
+		}
+	/* partner */
+
+}
